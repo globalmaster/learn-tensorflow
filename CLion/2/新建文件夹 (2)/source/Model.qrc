@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Model">
+        <file>Various.3ds</file>
+    </qresource>
+</RCC>

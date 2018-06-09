@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Shader/Diffuse.vert</file>
+        <file>Shader/Specular.vert</file>
+        <file>Shader/Specular_Opt.vert</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+﻿  loader.cpp
+loader.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+loader.cpp(57): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+loader.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+loader.cpp(81): warning C4244: “初始化”: 从“double”转换到“GLint”，可能丢失数据
+loader.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+main.cpp(1): fatal error C1083: 无法打开包括文件: “GLTools.h”: No such file or directory

@@ -1,0 +1,61 @@
+// ADS Point lighting Shader
+// Vertex Shader
+// Richard S. Wright Jr.
+// OpenGL SuperBible
+#version 130
+
+// Incoming per vertex... position and normal
+in vec4 vVertex;
+in vec3 vNormal;
+in vec4 vTexture0;
+
+uniform mat4   mvpMatrix;
+uniform mat4   mvMatrix;
+uniform mat3   normalMatrix;
+uniform vec3   vLightPosition;
+
+
+uniform vec4      ambientColor;
+uniform vec4      diffuseColor;   
+uniform vec4      specularColor;
+
+
+
+smooth out vec3 vVaryingNormal;
+smooth out vec3 vVaryingLightDir;
+smooth out vec2 vTexCoords;
+smooth out vec4 vFragColor ;
+void main(void) 
+    { 
+ 
+    vVaryingNormal = normalMatrix * vNormal;
+
+    // Get vertex position in eye coordinates
+    vec4 vPosition4 = mvMatrix * vVertex;
+    vec3 vPosition3 = vPosition4.xyz / vPosition4.w;
+
+   
+    vVaryingLightDir = normalize(vLightPosition - vPosition3);
+    float diff = max(0.0, dot(normalize(vVaryingNormal), normalize(vVaryingLightDir)));
+
+  
+    vFragColor = diff * diffuseColor;
+
+
+    vFragColor += ambientColor;
+
+ 
+    vec3 vReflection = normalize(reflect(-normalize(vVaryingLightDir), normalize(vVaryingNormal)));
+    float spec = max(0.0, dot(normalize(vVaryingNormal), vReflection));
+    if(diff != 0) {
+        float fSpec = pow(spec, 128.0);
+        vFragColor.rgb += vec3(fSpec, fSpec, fSpec);
+        }
+
+
+
+    vTexCoords = vTexture0.st;
+
+
+    gl_Position = mvpMatrix * vVertex;
+    }

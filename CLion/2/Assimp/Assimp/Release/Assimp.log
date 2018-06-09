@@ -1,0 +1,112 @@
+﻿生成启动时间为 2018/4/11 14:25:56。
+     1>项目“F:\2\Assimp\Assimp\Assimp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt glad.c
+         glad.c
+     1>glad.c(245): error C2061: 语法错误: 标识符“glad_glWindowPos2s”
+     1>glad.c(245): error C2059: 语法错误:“;”
+     1>glad.c(248): error C2061: 语法错误: 标识符“glad_glWindowPos2i”
+     1>glad.c(248): error C2059: 语法错误:“;”
+     1>glad.c(249): error C2061: 语法错误: 标识符“glad_glWindowPos2f”
+     1>glad.c(249): error C2059: 语法错误:“;”
+     1>glad.c(250): error C2061: 语法错误: 标识符“glad_glWindowPos2d”
+     1>glad.c(250): error C2059: 语法错误:“;”
+     1>glad.c(251): error C2061: 语法错误: 标识符“glad_glVertex2fv”
+     1>glad.c(251): error C2059: 语法错误:“;”
+     1>glad.c(252): error C2061: 语法错误: 标识符“glad_glIndexi”
+     1>glad.c(252): error C2059: 语法错误:“;”
+     1>glad.c(255): error C2061: 语法错误: 标识符“glad_glRectdv”
+     1>glad.c(255): error C2059: 语法错误:“;”
+     1>glad.c(257): error C2061: 语法错误: 标识符“glad_glEvalCoord2d”
+     1>glad.c(257): error C2059: 语法错误:“;”
+     1>glad.c(258): error C2061: 语法错误: 标识符“glad_glEvalCoord2f”
+     1>glad.c(258): error C2059: 语法错误:“;”
+     1>glad.c(260): error C2061: 语法错误: 标识符“glad_glIndexd”
+     1>glad.c(260): error C2059: 语法错误:“;”
+     1>glad.c(262): error C2061: 语法错误: 标识符“glad_glIndexf”
+     1>glad.c(262): error C2059: 语法错误:“;”
+     1>glad.c(267): error C2061: 语法错误: 标识符“glad_glGetMapfv”
+     1>glad.c(267): error C2059: 语法错误:“;”
+     1>glad.c(268): error C2061: 语法错误: 标识符“glad_glIndexs”
+     1>glad.c(268): error C2059: 语法错误:“;”
+     1>glad.c(271): error C2061: 语法错误: 标识符“glad_glWindowPos2iv”
+     1>glad.c(271): error C2059: 语法错误:“;”
+     1>glad.c(273): error C2061: 语法错误: 标识符“glad_glIndexfv”
+     1>glad.c(273): error C2059: 语法错误:“;”
+     1>glad.c(276): error C2061: 语法错误: 标识符“glad_glFogiv”
+     1>glad.c(276): error C2059: 语法错误:“;”
+     1>glad.c(278): error C2061: 语法错误: 标识符“glad_glRasterPos2fv”
+     1>glad.c(278): error C2059: 语法错误:“;”
+     1>glad.c(279): error C2061: 语法错误: 标识符“glad_glLightModeliv”
+     1>glad.c(279): error C2059: 语法错误:“;”
+     1>glad.c(281): error C2061: 语法错误: 标识符“glad_glColor4ui”
+     1>glad.c(281): error C2059: 语法错误:“;”
+     1>glad.c(282): error C2061: 语法错误: 标识符“glad_glSecondaryColor3fv”
+     1>glad.c(282): error C2059: 语法错误:“;”
+     1>glad.c(286): error C2061: 语法错误: 标识符“glad_glFogfv”
+     1>glad.c(286): error C2059: 语法错误:“;”
+     1>glad.c(291): error C2061: 语法错误: 标识符“glad_glVertex4iv”
+     1>glad.c(291): error C2059: 语法错误:“;”
+     1>glad.c(292): error C2061: 语法错误: 标识符“glad_glEvalCoord1fv”
+     1>glad.c(292): error C2059: 语法错误:“;”
+     1>glad.c(293): error C2061: 语法错误: 标识符“glad_glWindowPos2sv”
+     1>glad.c(293): error C2059: 语法错误:“;”
+     1>glad.c(304): error C2061: 语法错误: 标识符“glad_glVertex4fv”
+     1>glad.c(304): error C2059: 语法错误:“;”
+     1>glad.c(310): error C2061: 语法错误: 标识符“glad_glTexCoord2fv”
+     1>glad.c(310): error C2059: 语法错误:“;”
+     1>glad.c(314): error C2061: 语法错误: 标识符“glad_glTexCoord4fv”
+     1>glad.c(314): error C2059: 语法错误:“;”
+     1>glad.c(321): error C2061: 语法错误: 标识符“glad_glColor4bv”
+     1>glad.c(321): error C2059: 语法错误:“;”
+     1>glad.c(322): error C2061: 语法错误: 标识符“glad_glRasterPos2f”
+     1>glad.c(322): error C2059: 语法错误:“;”
+     1>glad.c(323): error C2061: 语法错误: 标识符“glad_glRasterPos2d”
+     1>glad.c(323): error C2059: 语法错误:“;”
+     1>glad.c(324): error C2061: 语法错误: 标识符“glad_glLoadIdentity”
+     1>glad.c(324): error C2059: 语法错误:“;”
+     1>glad.c(325): error C2061: 语法错误: 标识符“glad_glRasterPos2i”
+     1>glad.c(325): error C2059: 语法错误:“;”
+     1>glad.c(329): error C2061: 语法错误: 标识符“glad_glColor3b”
+     1>glad.c(329): error C2059: 语法错误:“;”
+     1>glad.c(331): error C2061: 语法错误: 标识符“glad_glEdgeFlag”
+     1>glad.c(331): error C2059: 语法错误:“;”
+     1>glad.c(333): error C2061: 语法错误: 标识符“glad_glVertex3d”
+     1>glad.c(333): error C2059: 语法错误:“;”
+     1>glad.c(334): error C2061: 语法错误: 标识符“glad_glVertex3f”
+     1>glad.c(334): error C2059: 语法错误:“;”
+     1>glad.c(336): error C2061: 语法错误: 标识符“glad_glVertex3i”
+     1>glad.c(336): error C2059: 语法错误:“;”
+     1>glad.c(337): error C2061: 语法错误: 标识符“glad_glColor3i”
+     1>glad.c(337): error C2059: 语法错误:“;”
+     1>glad.c(341): error C2061: 语法错误: 标识符“glad_glColor3s”
+     1>glad.c(341): error C2059: 语法错误:“;”
+     1>glad.c(342): error C2061: 语法错误: 标识符“glad_glVertex3s”
+     1>glad.c(342): error C2059: 语法错误:“;”
+     1>glad.c(347): error C2061: 语法错误: 标识符“glad_glTexCoord1iv”
+     1>glad.c(347): error C2059: 语法错误:“;”
+     1>glad.c(361): error C2061: 语法错误: 标识符“glad_glVertex2iv”
+     1>glad.c(361): error C2059: 语法错误:“;”
+     1>glad.c(363): error C2061: 语法错误: 标识符“glad_glColor3sv”
+     1>glad.c(363): error C2059: 语法错误:“;”
+     1>glad.c(368): error C2061: 语法错误: 标识符“glad_glNormalPointer”
+     1>glad.c(368): error C2059: 语法错误:“;”
+     1>glad.c(370): error C2061: 语法错误: 标识符“glad_glVertex4sv”
+     1>glad.c(370): error C2059: 语法错误:“;”
+     1>glad.c(373): error C2061: 语法错误: 标识符“glad_glPassThrough”
+     1>glad.c(373): error C2059: 语法错误:“;”
+     1>glad.c(375): error C2061: 语法错误: 标识符“glad_glFogi”
+     1>glad.c(375): error C2059: 语法错误:“;”
+     1>glad.c(376): error C2061: 语法错误: 标识符“glad_glBegin”
+     1>glad.c(376): error C2059: 语法错误:“;”
+     1>glad.c(377): error C2061: 语法错误: 标识符“glad_glEvalCoord2dv”
+     1>glad.c(377): error C2059: 语法错误:“;”
+     1>glad.c(378): error C2061: 语法错误: 标识符“glad_glColor3ubv”
+     1>glad.c(378): error C2059: 语法错误:“;”
+     1>glad.c(379): error C2061: 语法错误: 标识符“glad_glVertexPointer”
+     1>glad.c(379): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“F:\2\Assimp\Assimp\Assimp.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.22

@@ -1,0 +1,39 @@
+# Object files
+*.o
+
+# Libraries
+#*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+
+
+# Executables
+*.exe
+*.out
+*.app
+
+#vs
+*.lik
+*.pdb
+*.ncb
+*.suo
+*.obj
+/*.lik
+/*.pdb
+/*.ncb
+/*.suo
+/*.obj
+Debug
+/*.ncb
+/*.obj
+/*.dep
+/*.htm
+/*.idb
+/*.ilk
+*.htm
+*.user

@@ -1,0 +1,31 @@
+﻿  freeglut_window.c
+  fgSetupPixelFormat(): there is still some work to do here!
+  freeglut_videoresize.c
+  freeglut_teapot.c
+  freeglut_structure.c
+  freeglut_stroke_roman.c
+  freeglut_stroke_mono_roman.c
+  freeglut_state.c
+  freeglut_spaceball.c
+  freeglut_overlay.c
+  freeglut_misc.c
+  freeglut_menu.c
+  freeglut_main.c
+  freeglut_joystick.c
+  freeglut_input_devices.c
+  freeglut_init.c
+  freeglut_glutfont_definitions.c
+  freeglut_geometry.c
+  freeglut_gamemode.c
+  freeglut_font_data.c
+  freeglut_font.c
+  正在生成代码...
+  正在编译...
+  freeglut_ext.c
+  freeglut_display.c
+  freeglut_cursor.c
+  freeglut_callbacks.c
+  正在生成代码...
+    正在创建库 ..\..\lib\x86\Debug\freeglut.lib 和对象 ..\..\lib\x86\Debug\freeglut.exp
+  freeglut.vcxproj -> D:\OpenGL\FREE\freeglut-2.8.1\VisualStudio\2012\..\..\lib\x86\Debug\freeglut.dll
+  freeglut.vcxproj -> ..\..\lib\x86\Debug\freeglut.pdb (Full PDB)

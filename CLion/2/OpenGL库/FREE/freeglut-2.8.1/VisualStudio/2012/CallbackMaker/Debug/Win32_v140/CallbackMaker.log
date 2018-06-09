@@ -1,0 +1,9 @@
+﻿  CallbackMaker.c
+..\..\..\progs\demos\CallbackMaker\CallbackMaker.c(139): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  ..\..\..\progs\demos\CallbackMaker\CallbackMaker.c(139): note: 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  ..\..\..\progs\demos\CallbackMaker\CallbackMaker.c(139): note: 缺失的可变参数 1 为格式字符串“%6d”所需
+..\..\..\progs\demos\CallbackMaker\CallbackMaker.c(149): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  ..\..\..\progs\demos\CallbackMaker\CallbackMaker.c(149): note: 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  ..\..\..\progs\demos\CallbackMaker\CallbackMaker.c(149): note: 缺失的可变参数 1 为格式字符串“%6d”所需
+  CallbackMaker.vcxproj -> D:\OpenGL\FREE\freeglut-2.8.1\VisualStudio\2012\CallbackMaker\..\..\..\progs\demos\x86\debug_dll\CallbackMaker.exe
+  CallbackMaker.vcxproj -> ..\..\..\progs\demos\x86\debug_dll\CallbackMaker.pdb (Full PDB)
